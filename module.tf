@@ -10,6 +10,10 @@ module "acrp-terraform-simple" {
   source = "github.com/redisgeek/acrp-terraform-simple"
 }
 
+module "aks-terraform-default" {
+  source = "github.com/redisgeek/aks-terraform-default"
+}
+
 module "azure-container-registry-terraform-default" {
   source = "github.com/redisgeek/azure-container-registry-terraform-default"
 }
