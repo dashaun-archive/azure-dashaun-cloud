@@ -9,3 +9,7 @@ module "acre-terraform" {
 module "acrp-terraform-simple" {
   source = "github.com/redisgeek/acrp-terraform-simple"
 }
+
+module "aks-terraform-default" {
+  source = "github.com/redisgeek/aks-terraform-default"
+}
