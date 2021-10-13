@@ -7,5 +7,5 @@ module "acre-terraform" {
 }
 
 module "acrp-terraform-simple" {
-  source = "github.com/redis-developer/acrp-terraform-simple"
+  source = "github.com/redisgeek/acrp-terraform-simple"
 }
