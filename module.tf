@@ -17,3 +17,7 @@ module "aks-terraform-default" {
 module "azure-container-registry-terraform-default" {
   source = "github.com/redisgeek/azure-container-registry-terraform-default"
 }
+
+module "cloud-pipeline-helm" {
+  source = "github.com/dashaun-cloud/cloud-pipeline-helm"
+}
